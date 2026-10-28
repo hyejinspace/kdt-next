@@ -5,8 +5,10 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
+  reactStrictMode: false, //test mode
   cacheComponents: true,
   partialPrefetching: true,
+  devIndicators: false,
   turbopack: {
     rules: {
       "*.css": {
